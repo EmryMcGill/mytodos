@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: .2em;
+    overflow: hidden;
+    width: 80vw;
+}
+
+.input {
+    font-size: 1em;
+    border: none;
+    width: 100%;
+    padding: .5em;
+}
+
+.input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    margin: .3em;
+    border-radius: .2em;
+    font-family: "Poppins";
+    white-space: nowrap;
+}
+
+.cnsBtn {
+    background-color: rgb(240, 240, 240);
+    color: rgb(45, 45, 45);
+}
+
+.cnsBtn:hover {
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+.addBtn {
+    background-color: #57ca9a;
+    color: white;
+}
+
+.addBtn:hover {
+    background-color: #2cb67d;
+    color: white;
+    cursor: pointer;
+}

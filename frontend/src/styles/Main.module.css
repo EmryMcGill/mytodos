@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.addTodoContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.addTodoBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: .6em;
+    padding: .2em;
+    border-radius: .2em;
+    transition: .1s ease-in-out;
+    color: rgb(102, 102, 102);
+}
+
+.addTodoBtn:hover {
+    background-color: #2cb67d;
+    color: white;
+    cursor: pointer;
+}
+
+.addTodoBtnIcon {
+    margin-right: .5em;
+}
+
+.mssg {
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    padding: .8em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
